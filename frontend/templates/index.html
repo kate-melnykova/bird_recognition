@@ -83,10 +83,10 @@
   </div>
   <div class="row">
     <div class="col-5">
-      <form id="upload" method="post" enctype="multipart/form-data">
+      <form id="upload" action="http://127.0.0.1:5000/api/bird/recognize" method="post" enctype="multipart/form-data">
         <div class="box">
           <i class="fas fa-download"></i>
-          <input class="box_input" type="file" id="file" name="file" multiple>
+          <input class="box_input" type="file" id="file" name="bird" multiple>
           <input class="box_submit" type="submit" name="submit" value="submit">
         </div>
       </form>

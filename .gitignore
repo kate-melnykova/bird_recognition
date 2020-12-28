@@ -106,3 +106,9 @@ venv.bak/
 # IDE
 .idea
 
+
+/data/*
+data/*
+
+backend/ml/label_decoders/*
+backend/ml/saved_models/*

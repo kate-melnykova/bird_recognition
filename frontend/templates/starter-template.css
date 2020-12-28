@@ -8,11 +8,11 @@ body {
 }
 
 .box_input{
-  display: none;
+  /* display: none; */
 }
 
 .box_submit{
-  display: none;
+  /* display: none; */
 }
 
 .box .fa-download{
